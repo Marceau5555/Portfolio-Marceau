@@ -21,17 +21,21 @@ nav {
   display: flex;
   justify-content: center;
   gap: 30px;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 nav a {
   color: #4da6ff;
   text-decoration: none;
-  margin: 0 15px;
   font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #2a2a2a;
+  color: #ffffff;
 }
 
 /* Sections */
