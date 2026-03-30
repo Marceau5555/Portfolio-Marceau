@@ -96,6 +96,20 @@ ul li {
   text-decoration: underline;
 }
 
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4da6ff;
+  color: #121212;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #79c0ff;
+}
+
 /* Contact */
 #contact a {
   color: #4da6ff;
