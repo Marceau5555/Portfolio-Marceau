@@ -6,10 +6,11 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+ font-family: 'Segoe UI', sans-serif;
   background-color: #121212;
   color: #eeeeee;
 }
+
 
 /* Navigation */
 nav {
@@ -99,7 +100,7 @@ ul li {
 .btn {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #4da6ff;
+  background-color: white;
   color: #121212;
   border-radius: 5px;
   text-decoration: none;
@@ -107,7 +108,11 @@ ul li {
 }
 
 .btn:hover {
-  background-color: #79c0ff;
+  background-color: #dddddd;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Contact */
