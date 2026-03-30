@@ -105,6 +105,7 @@ ul li {
   margin-top: 10px;
   color: #4da6ff;
   text-decoration: none;
+  color:inherit;
 }
 
 .project a:hover {
@@ -121,12 +122,12 @@ ul li {
   display:inline-block;
   padding:10px 18px;
   background-color:#4da6ff;
-  color:#121212;
+  color:#ffffff;
   border-radius:6px;
   text-decoration:none;
   font-size:14px;
   font-weight:500;
-  transition: all 0.2s ease;
+  transition: background-color 0.2s, transform 0.2s;
 }
 
 .btn:hover{
