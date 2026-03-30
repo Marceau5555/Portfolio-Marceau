@@ -48,10 +48,11 @@ section {
   padding: 0 20px;
 }
 
-.about-container{
-  display:flex;
-  align-items:center;
-  gap:40px;
+.profile-photo{
+  width:100%;
+  max-width:350px;
+  height:auto;
+  border-radius:12px;
 }
 
 .about-text{
@@ -59,7 +60,8 @@ section {
 }
 
 .profile-photo{
-  width:180px;
+  width:300px;
+  height:auto;
   border-radius:12px;
 }
 
