@@ -65,10 +65,8 @@ section {
   flex:1;
 }
 
-.profile-photo{
-  width:300px;
-  height:auto;
-  border-radius:12px;
+.cv-btn{
+  margin-top:15px;
 }
 
 h1{
